@@ -1,0 +1,40 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(a7539fc1-77e1-43c1-bd1e-9e56b7ef0da1), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 16 Scala sources and 2 Java sources to /home/vishnu/Desktop/play-scala-seed/target/scala-2.13/classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/vishnu/Desktop/play-scala-seed/app/controllers/api/DataMainController.scala:35:19: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method bindFromRequest,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
+[0m[[0m[33mwarn[0m] [0m[0m    DataForm.form.bindFromRequest.fold([0m
+[0m[[0m[33mwarn[0m] [0m[0m                  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/vishnu/Desktop/play-scala-seed/app/controllers/api/DataMainController.scala:48:19: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method bindFromRequest,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
+[0m[[0m[33mwarn[0m] [0m[0m    DataForm.form.bindFromRequest.fold([0m
+[0m[[0m[33mwarn[0m] [0m[0m                  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/vishnu/Desktop/play-scala-seed/conf/routes:16:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method getAll,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
+[0m[[0m[33mwarn[0m] [0m[0mGET     /api/data                  controllers.api.DataMainController.getAll[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/vishnu/Desktop/play-scala-seed/conf/routes:18:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method add,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
+[0m[[0m[33mwarn[0m] [0m[0mPOST    /api/data/add              controllers.api.DataMainController.add[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/vishnu/Desktop/play-scala-seed/conf/routes:16:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method getAll,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
+[0m[[0m[33mwarn[0m] [0m[0mGET     /api/data                  controllers.api.DataMainController.getAll[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/vishnu/Desktop/play-scala-seed/conf/routes:18:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method add,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
+[0m[[0m[33mwarn[0m] [0m[0mPOST    /api/data/add              controllers.api.DataMainController.add[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/vishnu/Desktop/play-scala-seed/app/dataform/Dataform.scala:8:8: Generated class dataform.DataForm$ differs only in case from dataform.Dataform$.[0m
+[0m[[0m[33mwarn[0m] [0m[0m  Such classes will overwrite one another on case-insensitive filesystems.[0m
+[0m[[0m[33mwarn[0m] [0m[0mobject DataForm {[0m
+[0m[[0m[33mwarn[0m] [0m[0m       ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m7 warnings found[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:play-scala-seed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mshutting down sbt server[0m
